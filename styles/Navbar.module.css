@@ -7,6 +7,7 @@
     height: 5rem;
     position: sticky;
     z-index: 5000;
+    background-color: white;
     /* background-color: aqua; */
 }
 .profile{
@@ -18,7 +19,7 @@
 .name{
     font-family: "Poppins";
     font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .extraLogos{
     display: flex;
@@ -46,6 +47,7 @@
     align-items: center;
     position: sticky;
     z-index: 5000;
+    background-color: white;
 }
 .links{
     margin-left: 1rem;

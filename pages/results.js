@@ -2,7 +2,7 @@ import React from 'react'
 
 const results = () => {
   return (
-    <div>results</div>
+    <div>Page Under Development</div>
   )
 }
 

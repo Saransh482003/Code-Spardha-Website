@@ -2,7 +2,7 @@ import React from 'react'
 
 const compt = () => {
   return (
-    <div>compt</div>
+    <div>Page Under Development</div>
   )
 }
 

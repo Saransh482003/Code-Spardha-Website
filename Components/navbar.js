@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Image src="/Home/swatchLogo.png" className={styler.logo} width={200} height={200}></Image>
             </div>
         </div>
-        <hr/>
+        <hr className={styler.hr}/>
         <div className={styler.subNav}>
             <Link href="/" className={styler.links}>Home</Link>
             <Link href="/about" className={styler.links}>About</Link>
