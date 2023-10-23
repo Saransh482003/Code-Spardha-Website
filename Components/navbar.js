@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
         <div className={styler.navbar}>
             <Link href="/" className={styler.profile}>
-                <Image src="/Home/Code Spardha Logo.png" className={styler.logo} width={200} height={200}></Image>
+                <Image src="/Home/logo.png" className={styler.logo} width={200} height={200}></Image>
                 <p className={styler.name}>Code Spardha</p>
             </Link>
             <div className={styler.extraLogos}>
