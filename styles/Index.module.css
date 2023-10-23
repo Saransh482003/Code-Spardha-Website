@@ -83,3 +83,23 @@
 .stepHead{
   margin-bottom: 1rem;
 }
+.scheduler{
+  width: 50%;
+  text-align: left;
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+}
+.tableRow{
+  height: 3rem;
+  border: 0.2rem solid black;
+}
+.data{
+  border-bottom: 0.2rem solid black;
+}
+.datak{
+  border-right: 0.2rem solid black;
+  border-bottom: 0.2rem solid black;
+}
+.datafk{
+  border-right: 0.2rem solid black;
+}

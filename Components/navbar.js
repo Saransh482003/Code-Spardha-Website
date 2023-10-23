@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className={styler.subNav}>
             <Link href="/" className={styler.links}>Home</Link>
             <Link href="/about" className={styler.links}>About</Link>
-            <Link href="/compt" className={styler.links}>Competition Portal</Link>
+            {/* <Link href="/compt" className={styler.links}>Competition Portal</Link> */}
             <Link href="/results" className={styler.links}>Results</Link>
         </div>
     </>
