@@ -1,7 +1,9 @@
 import Navbar from '@/Components/navbar'
 import React from 'react'
-import styler from "../styles/Home.module.css"
+import styler from "../styles/Index.module.css"
 import { useEffect } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const home = () => {
   return (
@@ -19,7 +21,20 @@ const home = () => {
       <section className={styler.howTo}>
         <h1 className={styler.howHeader}>How To Register?</h1>
         <div className={styler.steps}>
-          
+          <Link href="/" className={styler.card}>
+            <Image src="/Home/How to/form.png" className={styler.img} width={1500} height={1500}></Image>
+            <div className={styler.stepContent}>
+              <h3 className={styler.stepHead}>Step 1 : Fill in the Registeration Form</h3>
+              <p className={styler.stepDesc}>Welcome to Code Spardha! We invite participants from all backgrounds to take part in this event. To begin your journey, please complete the Registration Form with utmost accuracy and sincerity. Your provided information will be used to generate your certificates, making this step essential. Ensure all fields are filled out seriously and comprehensively. Only registered participants will be eligible for certificates.</p>
+            </div>
+          </Link>
+        <Link href="https://www.hackerrank.com/code-spardha-arc-3" target='_blank' className={styler.card}>
+            <Image src="/Home/How to/hacker.png" className={styler.img} width={1500} height={1500}></Image>
+            <div className={styler.stepContent}>
+              <h3 className={styler.stepHead}>Step 2 : Sign Up on Hackerrank</h3>
+              <p className={styler.stepDesc}>Welcome to Code Spardha! We invite participants from all backgrounds to take part in this event. To begin your journey, please complete the Registration Form with utmost accuracy and sincerity. Your provided information will be used to generate your certificates, making this step essential. Ensure all fields are filled out seriously and comprehensively. Only registered participants will be eligible for certificates.</p>
+            </div>
+          </Link>
         </div>
       </section>
     </>
