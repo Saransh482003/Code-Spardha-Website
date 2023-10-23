@@ -63,7 +63,22 @@ const home = () => {
         </table>
       </section>
       <section className={styler.howTo}>
-      <h1 className={styler.howHeader}>Instructions</h1>
+        <h1 className={styler.howHeader}>Instructions and Rules</h1>
+        <ol className={styler.instructions}>
+          <li className={styler.inst}>Date of Competition: November 4, 2023</li>
+          <li className={styler.inst}>Time: 12:30 PM to 3:30 PM</li>
+          <li className={styler.inst}>There will be 3 levels with increasing degree of difficulty.</li>
+          <ol type='i' style={{marginLeft:"3rem"}}>
+            <li>Level 1 : 2 Questions</li>
+            <li>Level 2 : 2 Questions</li>
+            <li>Level 3 : Any 1 of 2 Questions</li>
+          </ol>
+          <li className={styler.inst}>All 5 questions would be marked.</li>
+          <li className={styler.inst}>Submissions made after 3:45 PM will NOT be considered for evaluation.</li>
+          <li className={styler.inst}>You are free to attend whatever question you want; there are no restrictions on access to levels.</li>
+          <li className={styler.inst}>Contact the coordinators or co-coordinators if you have any queries.</li>
+          
+        </ol>
       </section>
     </>
   )
