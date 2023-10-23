@@ -34,12 +34,12 @@ a {
     font-size: 45%;
   }
 }
-@media (max-width: 940px){
+/* @media (max-width: 940px){
   html{
     font-size: 40%;
   }
-}
-@media (max-width:790px){
+} */
+/* @media (max-width:790px){
   html{
     font-size: 30%;
   }
@@ -53,19 +53,29 @@ a {
   html{
     font-size: 15%;
   }
-}
-@media (max-width:275px){
+} */
+@media (max-width:334px){
   html{
-    font-size: 12%;
+    font-size: 30%;
   }
 }
-@media (max-width:200px){
+@media (max-width:230px){
   html{
-    font-size: 10%;
+    font-size: 25%;
+  }
+}
+@media (max-width:185px){
+  html{
+    font-size: 20%;
   }
 }
 @media (max-width:150px){
   html{
-    font-size: 8%;
+    font-size: 15%;
+  }
+}
+@media (max-width:110px){
+  html{
+    font-size: 12%;
   }
 }
