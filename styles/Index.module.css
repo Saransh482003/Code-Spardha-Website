@@ -189,7 +189,29 @@
     height: 18rem;
   } */
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 60%;
+  /* background-color: aqua; */
+}
+.contHead{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.entry{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 90%;
+  border-left: 0.2rem solid rgb(88, 88, 88);
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  /* background-color: aquamarine; */
 
+}
 @media (max-width: 351px) {
   .videoContent{
     transform: translate(0%, -40%);
