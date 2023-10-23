@@ -8,6 +8,7 @@
     position: sticky;
     z-index: 5000;
     background-color: white;
+    /* flex-wrap: wrap; */
     /* background-color: aqua; */
 }
 .profile{

@@ -9,18 +9,21 @@
   object-fit: cover;
   filter: brightness(50%);
   overflow: hidden;
+  position: relative;
 }
 .videoContent{
+  /* transform: translate(-50%, -50%); */
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
   /* background-color: aqua; */
-  position: absolute;
+  position:absolute;
   top: 0;
   justify-content: center;
   align-items: center;
   color: white;
+  /* background-color: aqua; */
   overflow:hidden;
 }
 .videoHead{
@@ -31,6 +34,7 @@
   font-size: 2rem;
   /* font-family: "Share Tech"; */
   font-style: italic;
+  margin-top: 1rem;
 }
 .videoArc{
   font-size: 5rem;
@@ -62,8 +66,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:30%;
-  height: 40rem;
+  width:30rem;
+  height: max-content;
+  padding-bottom: 1rem;
   border-radius: 2rem;
   box-shadow:  0rem 0.5rem 1rem rgb(94, 94, 94);
   margin-left: 3rem;
@@ -102,4 +107,133 @@
 }
 .datafk{
   border-right: 0.2rem solid black;
+}
+@media (max-width: 1298px) {
+  .videoContent{
+    transform: translate(0%, -20%);
+  }
+  .videoHead {
+    font-size: 6rem;
+  }
+
+  .videoDesc {
+    font-size: 1.6rem;
+  }
+
+  .videoArc {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 988px) {
+  .videoContent{
+    transform: translate(0%, -25%);
+  }
+  .videoHead {
+    font-size: 5.5rem;
+  }
+
+  .videoDesc {
+    font-size: 1.4rem;
+  }
+
+  .videoArc {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 780px) {
+  .videoContent{
+    transform: translate(0%, -30%);
+  }
+  .videoHead {
+    font-size: 5.5rem;
+  }
+
+  .videoDesc {
+    font-size: 1.4rem;
+  }
+
+  .videoArc {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 508px) {
+  .videoContent{
+    transform: translate(0%, -38%);
+  }
+  .videoHead {
+    font-size: 5.5rem;
+  }
+
+  .videoDesc {
+    font-size: 1.4rem;
+  }
+
+  .videoArc {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 351px) {
+  .videoContent{
+    transform: translate(0%, -40%);
+  }
+  .videoHead {
+    font-size: 5.5rem;
+  }
+
+  .videoDesc {
+    font-size: 1.4rem;
+  }
+
+  .videoArc {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 280px) {
+  .videoContent{
+    transform: translate(0%, -42%);
+  }
+  .videoHead {
+    font-size: 5.5rem;
+  }
+
+  .videoDesc {
+    font-size: 1.4rem;
+  }
+
+  .videoArc {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 205px) {
+  .videoContent{
+    transform: translate(0%, -43%);
+  }
+  .videoHead {
+    font-size: 5.5rem;
+  }
+
+  .videoDesc {
+    font-size: 1.4rem;
+  }
+
+  .videoArc {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 160px) {
+  .videoContent{
+    transform: translate(0%, -44%);
+  }
+  .videoHead {
+    font-size: 5.5rem;
+  }
+
+  .videoDesc {
+    font-size: 1.4rem;
+  }
+
+  .videoArc {
+    font-size: 3rem;
+  }
 }

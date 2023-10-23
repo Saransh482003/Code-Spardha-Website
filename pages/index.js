@@ -13,8 +13,6 @@ const home = () => {
         <div className={styler.videoContent}>
           <h1 className={styler.videoHead}>CODE SPARDHA</h1>
           <p className={styler.videoArc}>ARC-3</p>
-          <br></br>
-          <br></br>
           <p className={styler.videoDesc}>"Where Ideas Compete, Algorithms Conquer"</p>
         </div>
       </section>
