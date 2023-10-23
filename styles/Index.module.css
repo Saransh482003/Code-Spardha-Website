@@ -3,6 +3,10 @@
   height: 30rem;
   overflow: hidden;
 }
+.banner{
+  height: 100%;
+  width: 100%;
+}
 .video{
   width: 100%;
   height: auto;
