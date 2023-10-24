@@ -9,19 +9,19 @@ const home = () => {
   return (
     <>
       <section className={styler.intro}>
-        {/* <video src='/Home/cs.mp4' autoPlay muted loop className={styler.video} /> */}
-        {/* <div className={styler.videoContent}>
+        <video src='/Home/cs.mp4' autoPlay muted loop className={styler.video} />
+        <div className={styler.videoContent}>
           <h1 className={styler.videoHead}>CODE SPARDHA</h1>
           <p className={styler.videoArc}>ARC-3</p>
           <p className={styler.videoDesc}>"Where Ideas Compete, Algorithms Conquer"</p>
-        </div> */}
-        <Image src="/Home/banner.png" width={1920} height={600} className={styler.banner}></Image>
+        </div>
+        {/* <Image src="/Home/banner.png" width={1920} height={600} className={styler.banner}></Image> */}
       </section>
       <section className={styler.howTo}>
         <h1 className={styler.howHeader}>How To Register?</h1>
         <div className={styler.steps}>
-          <Link href="/" className={styler.card}>
-            <Image src="/Home/Howto/form.png" className={styler.img} width={1500} height={1500}></Image>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScuGJhP38w_iIG8il3smlOG4bx4MD8Cp1d60-Xh5nlgmrydNQ/viewform?usp=sf_link" className={styler.card}>
+            <Image src="/Home/Howto/codespardha.png" className={styler.img} width={1500} height={1500}></Image>
             <div className={styler.stepContent}>
               <h3 className={styler.stepHead}>Step 1 : Fill in the Registeration Form</h3>
               <p className={styler.stepDesc}>Welcome to Code Spardha! We invite participants from all backgrounds to take part in this event. To begin your journey, please complete the Registration Form with utmost accuracy and sincerity. Your provided information will be used to generate your certificates, making this step essential. Ensure all fields are filled out seriously and comprehensively. Only registered participants will be eligible for certificates.</p>
@@ -88,6 +88,7 @@ const home = () => {
             <p className={styler.desc}>HOD B.Sc. Data Analytics</p>
           </div>
         </div>
+        <hr className={styler.hre}></hr>
         <div className={styler.container}>
           <h1 className={styler.contHead}>Coordinators</h1>
           <div className={styler.entry}>
@@ -101,6 +102,7 @@ const home = () => {
             <p className={styler.desc}>8800147938</p>
           </div>
         </div>
+        <hr className={styler.hre}></hr>
         <div className={styler.container}>
           <h1 className={styler.contHead}>Co-coordinators</h1>
           <div className={styler.entry}>
