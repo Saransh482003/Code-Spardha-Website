@@ -112,7 +112,7 @@ const home = () => {
             <p className={styler.desc}>8178944525</p>
           </div>
           <div className={styler.entry}>
-            <h3 className={styler.name}>Mohammad Hamid</h3>
+            <h3 className={styler.name}>Md Hamid</h3>
             <p className={styler.desc}>2nd Year B.Sc. Data Analytics Student</p>
             <p className={styler.desc}>9576014911</p>
           </div>
