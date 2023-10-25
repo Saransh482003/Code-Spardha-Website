@@ -84,26 +84,20 @@ const home = () => {
         </ol>
       </section>
       <section className={styler.howTo}>
-        <h1 className={styler.howHeader}>Organiser Team</h1>
-        <div className={styler.container}>
-          <h1 className={styler.contHead}>Faculty coordinators</h1>
-          <div className={styler.entry}>
-            <h3 className={styler.name}>Dr. Mamta Mittal</h3>
-            <p className={styler.desc}>HOD B.Sc. Data Analytics</p>
-          </div>
-        </div>
-        <hr className={styler.hre}></hr>
+        <h1 className={styler.howHeader}>Student Organiser Team</h1>
         <div className={styler.container}>
           <h1 className={styler.contHead}>Coordinators</h1>
           <div className={styler.entry}>
             <h3 className={styler.name}>Saransh Saini</h3>
             <p className={styler.desc}>3rd Year B.Sc. Data Analytics Student</p>
             <p className={styler.desc}>8178708402</p>
+            <Link href="https://datakiscience.com/" className={styler.desc}>Go to Website</Link>
           </div>
           <div className={styler.entry}>
             <h3 className={styler.name}>Mamta</h3>
             <p className={styler.desc}>3rd Year B.Sc. Data Analytics Student</p>
             <p className={styler.desc}>8800147938</p>
+            <Link href="https://mamta-portfolio.onrender.com" className={styler.desc}>Go to Website</Link>
           </div>
         </div>
         <hr className={styler.hre}></hr>
