@@ -26,7 +26,7 @@ const home = () => {
             </div>
             <div className={styler.stepContent}>
               <h3 className={styler.stepHead}>Step 1 : Fill in the Registeration Form</h3>
-              <p className={styler.stepDesc}>Welcome to Code Spardha! We invite participants from all backgrounds to take part in this event. To begin your journey, please complete the Registration Form with utmost accuracy and sincerity. Your provided information will be used to generate your certificates, making this step essential. Ensure all fields are filled out seriously and comprehensively. Only registered participants will be eligible for certificates.</p>
+              // <p className={styler.stepDesc}>Welcome to Code Spardha! We invite participants from all backgrounds to take part in this event. To begin your journey, please complete the Registration Form with utmost accuracy and sincerity. Your provided information will be used to generate your certificates, making this step essential. Ensure all fields are filled out seriously and comprehensively. Only registered participants will be eligible for certificates.</p>
             </div>
           </Link>
           <Link href="https://www.hackerrank.com/code-spardha-arc-3" target='_blank' className={styler.card}>
@@ -35,7 +35,7 @@ const home = () => {
           </div>
             <div className={styler.stepContent}>
               <h3 className={styler.stepHead}>Step 2 : Sign Up on Hackerrank</h3>
-              <p className={styler.stepDesc}>Visit the HackerRank website, sign up, and provide accurate information. Use a valid email address. After creating your account, sign in, and navigate to the competition page. Click 'Sign Up' before the deadline on November 3rd, 11:59 PM. Your active participation is crucial. Thank you for your cooperation.</p>
+              // <p className={styler.stepDesc}>Visit the HackerRank website, sign up, and provide accurate information. Use a valid email address. After creating your account, sign in, and navigate to the competition page. Click 'Sign Up' before the deadline on November 3rd, 11:59 PM. Your active participation is crucial. Thank you for your cooperation.</p>
             </div>
           </Link>
         </div>
@@ -91,13 +91,13 @@ const home = () => {
             <h3 className={styler.name}>Saransh Saini</h3>
             <p className={styler.desc}>3rd Year B.Sc. Data Analytics Student</p>
             <p className={styler.desc}>8178708402</p>
-            <Link href="https://datakiscience.com/" className={styler.desc}>Go to Website</Link>
+            <Link href="https://datakiscience.com/" target="_blank" className={styler.desc}>Go to Website</Link>
           </div>
           <div className={styler.entry}>
             <h3 className={styler.name}>Mamta</h3>
             <p className={styler.desc}>3rd Year B.Sc. Data Analytics Student</p>
             <p className={styler.desc}>8800147938</p>
-            <Link href="https://mamta-portfolio.onrender.com" className={styler.desc}>Go to Website</Link>
+            <Link href="https://mamta-portfolio.onrender.com" target="_blank" className={styler.desc}>Go to Website</Link>
           </div>
         </div>
         <hr className={styler.hre}></hr>
@@ -105,17 +105,17 @@ const home = () => {
           <h1 className={styler.contHead}>Co-coordinators</h1>
           <div className={styler.entry}>
             <h3 className={styler.name}>Sonu</h3>
-            <p className={styler.desc}>2rd Year B.Sc. Data Analytics Student</p>
+            <p className={styler.desc}>2nd Year B.Sc. Data Analytics Student</p>
             <p className={styler.desc}>8178944525</p>
           </div>
           <div className={styler.entry}>
             <h3 className={styler.name}>Hamid</h3>
-            <p className={styler.desc}>2rd Year B.Sc. Data Analytics Student</p>
+            <p className={styler.desc}>2nd Year B.Sc. Data Analytics Student</p>
             <p className={styler.desc}>9576014911</p>
           </div>
           <div className={styler.entry}>
             <h3 className={styler.name}>Suryansh</h3>
-            <p className={styler.desc}>2rd Year B.Sc. Data Analytics Student</p>
+            <p className={styler.desc}>2nd Year B.Sc. Data Analytics Student</p>
             <p className={styler.desc}>9650972122</p>
           </div>
         </div>
