@@ -27,7 +27,7 @@ const home = () => {
             <div className={styler.stepContent}>
               <h3 className={styler.stepHead}>Step 1 : Fill in the Registeration Form</h3>
               <p className={styler.stepDesc}>Welcome to Code Spardha! We invite participants from all backgrounds to take part in this event. To begin your journey, please complete the Registration Form with utmost accuracy and sincerity. Your provided information will be used to generate your certificates, making this step essential. Ensure all fields are filled out seriously and comprehensively. Only registered participants will be eligible for certificates.</p>
-              <p className={styler.descLink}><u>Go to Form</u> &#10140;</p>
+              <div className={styler.descLink}>Go to Form &#10140;</div>
             </div>
             
           </Link>
@@ -38,7 +38,7 @@ const home = () => {
             <div className={styler.stepContent}>
               <h3 className={styler.stepHead}>Step 2 : Sign Up on Hackerrank</h3>
               <p className={styler.stepDesc}>Visit the HackerRank website, sign up, and provide accurate information. Use a valid email address. After creating your account, sign in, and navigate to the competition page. Click 'Sign Up' before the deadline on November 3rd, 11:59 PM. Your active participation is crucial. Thank you for your cooperation.</p>
-              <p className={styler.descLink}><u>Go to HackerRank</u> &#10140;</p>
+              <div className={styler.descLink}>Go to HackerRank &#10140;</div>
             </div>
           </Link>
         </div>

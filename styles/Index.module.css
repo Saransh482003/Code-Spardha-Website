@@ -144,14 +144,16 @@
   border-radius: 1rem;
 }
 .descLink{
+  width: max-content;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 3rem;
   margin-top: 0.8rem;
   font-weight: 500;
+  color: white;
   font-size: 1.2rem;
-  text-decoration: underline;
   background-image: linear-gradient(to right, rgba(6, 13, 157),rgba(189, 9, 177));
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
 }
 .tableRow{
   height: 3rem;
