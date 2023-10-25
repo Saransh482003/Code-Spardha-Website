@@ -160,14 +160,35 @@
   border: 0.2rem solid black;
 }
 .data{
+  padding-left: 0.5rem;
   border-bottom: 0.2rem solid black;
 }
 .datak{
+  padding-left: 0.5rem;
   border-right: 0.2rem solid black;
   border-bottom: 0.2rem solid black;
 }
-.datafk{
+.datah{
+  padding-left: 0.5rem;
+  border-bottom: 0.2rem solid black;
+  background-image: linear-gradient(to right, rgba(6, 13, 157),rgba(189, 9, 177));
+  color: white;
+  border-top-right-radius: 1rem;
+}
+.datakh{
+  padding-left: 0.5rem;
   border-right: 0.2rem solid black;
+  border-bottom: 0.2rem solid black;
+  color: white;
+  border-top-left-radius: 1rem;
+  background-image: linear-gradient(to right, rgba(6, 13, 157),rgba(189, 9, 177));
+}
+.datafk{
+  padding-left: 0.5rem;
+  border-right: 0.2rem solid black;
+}
+.dataf{
+  padding-left: 0.5rem;
 }
 @media (max-width: 1298px) {
   .videoContent{

@@ -48,8 +48,8 @@ const home = () => {
         <table className={styler.scheduler}>
           <thead>
             <tr className={styler.tableRow}>
-              <th className={styler.datak}>Event</th>
-              <th className={styler.data}>Date</th>
+              <th className={styler.datakh}>Event</th>
+              <th className={styler.datah}>Date</th>
             </tr>
           </thead>
           <tbody>
