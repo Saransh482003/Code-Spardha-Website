@@ -13,8 +13,8 @@ const Navbar = () => {
             </Link>
             <div className={styler.extraLogos}>
                 <Image src="/Home/dseuLogo.png" className={styler.logo} width={200} height={200}></Image>
-                <Image src="/Home/g20Logo.png" className={styler.logo} width={200} height={200}></Image>
-                <Image src="/Home/azadiLogo.png" className={styler.logo} width={200} height={200}></Image>
+                {/* <Image src="/Home/g20Logo.png" className={styler.logo} width={200} height={200}></Image>
+                <Image src="/Home/azadiLogo.png" className={styler.logo} width={200} height={200}></Image> */}
                 <Image src="/Home/swatchLogo.png" className={styler.logo} width={200} height={200}></Image>
             </div>
         </div>

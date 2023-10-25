@@ -57,7 +57,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 3rem;
   height: max-content;
 }
@@ -96,6 +96,7 @@
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  transition: all 0.2s ease-out;
   /* text-shadow: 0 0 0.5rem #00ff00, 0 0 .5rem #00ff00, 0 0 0.5rem #00ff00; */
 }
 .imgCont{
@@ -118,7 +119,7 @@
     height: 100%;
   border-top-right-radius: 2rem;
   border-top-left-radius: 2rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.0));
+  background: linear-gradient(rgba(66, 0, 48, 0.4),rgba(0, 0, 0, 0.0));
 }
 .img{
   width: 100%;
@@ -142,6 +143,16 @@
   border: 0.2rem solid black;
   border-radius: 1rem;
 }
+.descLink{
+  margin-top: 0.8rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  background-image: linear-gradient(to right, rgba(6, 13, 157),rgba(189, 9, 177));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 .tableRow{
   height: 3rem;
   border: 0.2rem solid black;
@@ -158,7 +169,7 @@
 }
 @media (max-width: 1298px) {
   .videoContent{
-    transform: translate(0%, -20%);
+    /* transform: translate(0%, -12%); */
   }
   .videoHead {
     font-size: 6rem;
@@ -176,7 +187,7 @@
 
 @media (max-width: 988px) {
   .videoContent{
-    transform: translate(0%, -25%);
+    /* transform: translate(0%, -25%); */
   }
   .videoHead {
     font-size: 5.5rem;
@@ -267,7 +278,7 @@
 }
 @media (max-width: 351px) {
   .videoContent{
-    transform: translate(0%, -28%);
+    /* transform: translate(0%, -28%); */
   }
   .videoHead {
     font-size: 5.5rem;
@@ -286,7 +297,7 @@
 }
 @media (max-width: 351px) {
   .videoContent{
-    transform: translate(0%, -30%);
+    /* transform: translate(0%, -30%); */
   /* }
   .videoHead {
     font-size: 5.5rem;
@@ -305,7 +316,7 @@
 }}
 @media (max-width: 230px) {
   .videoContent{
-    transform: translate(0%, -32%);
+    /* transform: translate(0%, -32%); */
   }
   .videoHead {
     font-size: 5.5rem;
@@ -324,7 +335,7 @@
 }
 @media (max-width: 205px) {
   .videoContent{
-    transform: translate(0%, -35%);
+    /* transform: translate(0%, -35%); */
   }
   .videoHead {
     font-size: 5.5rem;
@@ -340,7 +351,7 @@
 }
 @media (max-width: 185px) {
   .videoContent{
-    transform: translate(0%, -38%);
+    /* transform: translate(0%, -38%); */
   }
   .videoHead {
     font-size: 5.5rem;
@@ -356,7 +367,7 @@
 }
 @media (max-width: 150px) {
   .videoContent{
-    transform: translate(0%, -40%);
+    /* transform: translate(0%, -40%); */
   }
   .videoHead {
     font-size: 5.5rem;

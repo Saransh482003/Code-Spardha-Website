@@ -1,0 +1,21 @@
+.resultsPlaceHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 100%;
+}
+.placeHolder{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gainsboro; */
+    font-size: 2rem;
+    border-radius: 3rem;
+    color: white;
+    background-image: linear-gradient(to right, rgba(6, 13, 157),rgba(189, 9, 177));
+}
