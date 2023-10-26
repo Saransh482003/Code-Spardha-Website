@@ -17,7 +17,7 @@ const home = () => {
         </div>
         <Image src="/Home/banner.png" width={1920} height={600} className={styler.banner}></Image>
       </section> */}
-      <section className={styler.howTo}>
+      <section className={styler.howTo} style={{marginBottom:"0rem"}}>
         <h1 className={styler.howHeader}>How To Register?</h1>
         <div className={styler.steps}>
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLScuGJhP38w_iIG8il3smlOG4bx4MD8Cp1d60-Xh5nlgmrydNQ/viewform?usp=sf_link" target='_blank' className={styler.card}>
@@ -42,8 +42,10 @@ const home = () => {
             </div>
           </Link>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"  style={{rotate:"180deg",marginTop:"3rem", backgroundImage:"linear-gradient(135deg,rgb(189, 9, 18),rgba(189, 9, 177));"}}><path fill="#ffffff" fill-opacity="1" d="M0,32L40,48C80,64,160,96,240,122.7C320,149,400,171,480,165.3C560,160,640,128,720,96C800,64,880,32,960,37.3C1040,43,1120,85,1200,133.3C1280,181,1360,235,1400,261.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
       </section>
-      <section className={styler.howTo}>
+      <section className={styler.howTo}  style={{marginTop:"0rem"}}>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style={{backgroundImage:"linear-gradient(45deg, rgba(189, 9, 177),rgb(189, 9, 18));"}}><path className={styler.path} fill='#ffffff' fill-opacity="1" d="M0,160L40,144C80,128,160,96,240,85.3C320,75,400,85,480,117.3C560,149,640,203,720,224C800,245,880,235,960,213.3C1040,192,1120,160,1200,149.3C1280,139,1360,149,1400,154.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
         <h1 className={styler.howHeader}>Event Schedule</h1>
         <div className={styler.table}>
           <div className={styler.headRow}>
