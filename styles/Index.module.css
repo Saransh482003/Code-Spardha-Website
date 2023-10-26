@@ -79,6 +79,14 @@
   background-image:linear-gradient(45deg, rgb(189, 9, 117),rgb(189, 93, 9));
   /* border-radius: 0 0 50% 50%/ 0 0 80% 80%; */
 }
+.path1{
+  rotate:180deg;
+  margin-top:"3rem";
+  background-image:linear-gradient(135deg,rgb(189, 93, 9),rgb(189, 9, 117));
+}
+.path2{
+  background-image:linear-gradient(45deg, rgb(189, 9, 117),rgb(189, 93, 9));
+}
 .howHeader{
   font-size: 2rem;
   width: 100%;
