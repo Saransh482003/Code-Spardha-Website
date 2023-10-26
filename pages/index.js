@@ -121,7 +121,7 @@ const home = () => {
             <h3 className={styler.name}>Mamta</h3>
             <p className={styler.desc}>3rd Year B.Sc. Data Analytics Student</p>
             <p className={styler.desc}>8800147938</p>
-            <Link href="https://mamta-portfolio.onrender.com" target="_blank" className={styler.desc}><u>Go to Website</u> &#10140;</Link>
+            <Link href="https://mamta-portfolio.onrender.com" target="_blank" className={styler.desc} style={{fontWeight:"500"}}><u>Go to Website</u> &#10140;</Link>
           </div>
         </div>
         <hr className={styler.hre}></hr>
