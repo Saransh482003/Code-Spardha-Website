@@ -1,8 +1,11 @@
 .intro{ 
   width: 100%;
-  height: 30rem;
+  height: 35rem;
   overflow: hidden;
   position: relative;
+  /* border-bottom-left-radius: 30rem;
+  border-bottom-right-radius: 30rem,30rem; */
+  border-radius: 0 0 50% 50%/ 0 0 80% 80%;
 }
 .intro::after {
   content: '';
@@ -60,6 +63,20 @@
   margin-top: 5rem;
   margin-bottom: 3rem;
   height: max-content;
+}
+.instructionPanel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  height: max-content;
+  color: white;
+  /* padding-top: 5rem;
+  padding-bottom: 5rem; */
+  background-image:linear-gradient(45deg, rgba(6, 13, 157),rgba(189, 9, 177));
+  /* border-radius: 0 0 50% 50%/ 0 0 80% 80%; */
 }
 .howHeader{
   font-size: 2rem;
@@ -155,11 +172,54 @@
   font-size: 1.2rem;
   background-image: linear-gradient(to right, rgba(6, 13, 157),rgba(189, 9, 177));
 }
-.tableRow{
-  height: 3rem;
-  border: 0.2rem solid black;
+.table{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width:70%;
+  height: max-content;
+  border: 0.3rem solid black;
+  border-radius: 3rem;
+  font-size:1.2rem;
+}
+.headRow{
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  width: 100%;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, rgba(6, 13, 157),rgba(189, 9, 177));
+  color: white;
+  font-weight: 500 ;
+  border-radius: 2.5rem 2.5rem 0 0;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 5rem;
+}
+.headData{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+
 }
 .data{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+/* .tableRow{
+  height: 3rem;
+  border: 0.2rem solid black;
+} */
+/* .data{
   padding-left: 0.5rem;
   border-bottom: 0.2rem solid black;
 }
@@ -189,7 +249,7 @@
 }
 .dataf{
   padding-left: 0.5rem;
-}
+} */
 @media (max-width: 1298px) {
   .videoContent{
     /* transform: translate(0%, -12%); */

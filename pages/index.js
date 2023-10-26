@@ -45,7 +45,25 @@ const home = () => {
       </section>
       <section className={styler.howTo}>
         <h1 className={styler.howHeader}>Event Schedule</h1>
-        <table className={styler.scheduler}>
+        <div className={styler.table}>
+          <div className={styler.headRow}>
+            <div className={styler.headData}>Event</div>
+            <div className={styler.headData}>Date</div>
+          </div>
+          <div className={styler.row} style={{borderBottom:"0.2rem solid black"}}>
+            <div className={styler.data}>Registration deadline</div>
+            <div className={styler.data}>3 November 2023 23:59 (Mid-Night)</div>
+          </div>
+          <div className={styler.row} style={{borderBottom:"0.2rem solid black"}}>
+            <div className={styler.data}>Competition</div>
+            <div className={styler.data}>4 November 2023 12:30 (Noon)</div>
+          </div>
+          <div className={styler.row}>
+            <div className={styler.data}>Declaration of Results and Certificates</div>
+            <div className={styler.data}>18 November</div>
+          </div>
+        </div>
+        {/* <table className={styler.scheduler}>
           <thead>
             <tr className={styler.tableRow}>
               <th className={styler.datakh}>Event</th>
@@ -66,9 +84,10 @@ const home = () => {
               <td className={styler.dataf}>18 November</td>
             </tr>
           </tbody>
-        </table>
+        </table> */}
       </section>
-      <section className={styler.howTo}>
+      <section className={styler.instructionPanel}>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style={{rotate:"180deg"}}><path fill="#ffffff" fill-opacity="1" d="M0,128L40,112C80,96,160,64,240,53.3C320,43,400,53,480,90.7C560,128,640,192,720,202.7C800,213,880,171,960,144C1040,117,1120,107,1200,128C1280,149,1360,203,1400,229.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
         <h1 className={styler.howHeader}>Instructions and Rules</h1>
         <ol className={styler.instructions}>
           <li className={styler.inst}>Date of Competition: November 4, 2023</li>
@@ -85,6 +104,8 @@ const home = () => {
           <li className={styler.inst}>Contact the coordinators or co-coordinators if you have any queries.</li>
           
         </ol>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L30,144C60,160,120,192,180,170.7C240,149,300,75,360,64C420,53,480,107,540,112C600,117,660,75,720,53.3C780,32,840,32,900,53.3C960,75,1020,117,1080,160C1140,203,1200,245,1260,229.3C1320,213,1380,139,1410,101.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
       </section>
       <section className={styler.howTo}>
         <h1 className={styler.howHeader}>Student Organiser Team</h1>
