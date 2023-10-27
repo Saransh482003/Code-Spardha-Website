@@ -388,25 +388,6 @@
     width: 50%;
   }
 }
-@media (max-width: 351px) {
-  .videoContent{
-    /* transform: translate(0%, -30%); */
-  /* }
-  .videoHead {
-    font-size: 5.5rem;
-  }
-
-  .videoDesc {
-    font-size: 1.4rem;
-  }
-
-  .videoArc {
-    font-size: 3rem;
-  }
-  .instructions{
-    width: 50%;
-  } */
-}}
 @media (max-width: 230px) {
   .videoContent{
     /* transform: translate(0%, -32%); */
