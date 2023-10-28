@@ -145,6 +145,14 @@ const home = () => {
             <p className={styler.desc}>9650972122</p>
           </div>
         </div>
+        <hr className={styler.hre}></hr>
+        <div className={styler.container}>
+          <h1 className={styler.contHead}>Poster Designing</h1>
+          <div className={styler.entry}>
+            <h3 className={styler.name}>Keshav Krishnam</h3>
+            <p className={styler.desc}>3rd Year B.Sc. Data Analytics Student</p>
+          </div>
+        </div>
       </section>
     </>
   )
