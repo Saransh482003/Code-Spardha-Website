@@ -279,9 +279,6 @@
 }
 
 @media (max-width: 988px) {
-  .videoContent{
-    /* transform: translate(0%, -25%); */
-  }
   .videoHead {
     font-size: 5.5rem;
   }
