@@ -7,6 +7,10 @@ const references = () => {
     <section className={styler.sec}>
       <h1 className={styler.header}>These are the References for the Questions</h1>
       <div className={styler.ques}>
+        <h3 className={styler.quesName}>Level 1 : The Lover's Dilemma</h3>
+        <Image src="/Home/reference/petal.jpeg" className={styler.img} width={1500} height={1500}></Image>
+      </div>
+      <div className={styler.ques}>
         <h3 className={styler.quesName}>Level 2 : Knight Strolls</h3>
         <Image src="/Home/reference/knight.jpeg" className={styler.img} width={1500} height={1500}></Image>
       </div>
@@ -15,8 +19,8 @@ const references = () => {
         <Image src="/Home/reference/mixnacci.png" className={styler.img} width={1500} height={1500}></Image>
       </div>
       <div className={styler.ques}>
-        <h3 className={styler.quesName}>Level 3 : The Mystic Maze</h3>
-        <Image src="/Home/reference/mixnacci.png" className={styler.img} width={1500} height={1500}></Image>
+        <h3 className={styler.quesName}>Level 3 : The Pythopolis Labyrinth</h3>
+        <Image src="/Home/reference/lybrinth.png" className={styler.img} width={1500} height={1500}></Image>
       </div>
       <div className={styler.ques}>
         <h3 className={styler.quesName}>Level 3 : The Traveller's Economy</h3>
