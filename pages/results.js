@@ -16,7 +16,7 @@ const results = () => {
   return (
     <>
       <section className={styler.scoreSec} style={{marginTop:"3rem"}}>
-        <Image src="/Home/top3graph.png" className={styler.top3} width={1000} height={1000}></Image>
+        <Image src="/Home/top3graphrem.png" className={styler.top3} width={1000} height={1000}></Image>
       </section>
       <h1 className={styler.howHeader}>Important Information</h1>
       <section className={styler.scoreSec}>
