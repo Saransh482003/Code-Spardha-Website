@@ -89,4 +89,24 @@
     align-items: center;
     width: 20%;
     height: 100%;
+    font-size: 1rem;
+    text-align: center;
 }
+@media (max-width: 500px){
+    .headers{
+        font-size: 0.8rem;
+    }
+
+    .score{
+      font-size: 0.8rem;
+    }
+  }
+@media (max-width: 400px){
+    /* .score{
+      font-size: 0.7rem;
+    }
+    
+    .headers{
+        font-size: 0.7rem;
+    } */
+  }
