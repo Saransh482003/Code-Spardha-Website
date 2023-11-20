@@ -22,8 +22,8 @@ const results = () => {
       <section className={styler.scoreSec}>
         <div className={styler.decInfo}>
           <p className={styler.info}>1. These are your final ranking for the competition. We congratulate and thank all the participants for participating in the event and making it a huge success.</p>
-          <p className={styler.info}>2. Download your certificates by clicking on the Download Certificate button.</p>
-          <p className={styler.info}>3. Those who have "Contact Us" written in the Download Certificate section contact the Coordinators immediately, due to some reason we were not able to fetch your names for the certificates.</p>
+          <p className={styler.info}>2. Download your certificates by clicking on the <span style={{color:"green",fontWeight:"500"}}>"Download Certificate"</span> button.</p>
+          <p className={styler.info}>3. Those who have <span style={{color:"red",fontWeight:"500"}}>"Contact Us"</span> written in the Download Certificate section contact the Coordinators immediately, due to some reason we were not able to fetch your names for the certificates.</p>
           <p className={styler.info}>4. If you have any discrepancy in your name on the certificate then contact the Coordinators. We will entertain such requests only till 25 November 2023.</p>
         </div>
       </section>
