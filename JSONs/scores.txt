@@ -47,11 +47,11 @@
  {
   "s.no.": 6,
   "rank": 6,
-  "Full name": "Subrahmanyam B H V S P",
+  "Full name": "Pavan Subbu",
   "user name": "pavansubbu03",
   "marks": 262,
   "time": "08:35:37",
-  "certificate": "https://drive.google.com/file/d/1tQyv91zFtCWzX0QXEFcBLETwHpaDl5Oi/view?usp=drivesdk"
+  "certificate": "https:\/\/drive.google.com\/file\/d\/1X8EskSwlLVt4KdfwsBy-kNDqdXNO1aLI\/view?usp=drivesdk"
  },
  {
   "s.no.": 7,
@@ -267,11 +267,10 @@
  {
   "s.no.": 31,
   "rank": 31,
-  "Full name": "Prashant  Kumar",
   "user name": "mspa0099",
   "marks": 66,
   "time": "01:10:44",
-  "certificate": "https://drive.google.com/file/d/1b00QH-I-VwD11VxjN8EKYeFh34Eyxtz5/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 32,
@@ -303,6 +302,7 @@
  {
   "s.no.": 35,
   "rank": 35,
+  "Full name": "Shivam Kumar",
   "user name": "bhavya_yajush",
   "marks": 60,
   "time": "02:09:47",
@@ -311,11 +311,10 @@
  {
   "s.no.": 36,
   "rank": 36,
-  "Full name": "Shivam Kumar",
   "user name": "shivamkr1082002",
   "marks": 50,
   "time": "01:28:00",
-  "certificate": "https://drive.google.com/file/d/1t_SAFhyVU5njlJl9XyrsWQDoWYtlU-yo/view?usp=sharing"
+  "certificate": "error"
  },
  {
   "s.no.": 37,
@@ -401,11 +400,10 @@
  {
   "s.no.": 46,
   "rank": 46,
-  "Full name": "Samarth",
   "user name": "ss5836",
   "marks": 50,
   "time": "00:16:00",
-  "certificate": "https://drive.google.com/file/d/1o2d6jhz2lgx317muJiQi-ZZEyOzEVzhG/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 47,
@@ -506,11 +504,10 @@
  {
   "s.no.": 58,
   "rank": 58,
-  "Full name": "Subham Gautam",
   "user name": "Btech41523100",
   "marks": 0,
   "time": "00:00:00",
-  "certificate": "https://drive.google.com/file/d/1DLPXuZrr53a_qeV1pv-IspZFjEDQMLe6/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 59,
@@ -524,11 +521,10 @@
  {
   "s.no.": 60,
   "rank": 60,
-  "Full name": "Bulland Kapoor",
   "user name": "kapoorbulland19",
   "marks": 0,
   "time": "00:00:00",
-  "certificate": "https://drive.google.com/file/d/18gBnho-e0B3ftTz-xz1wpnQtKAfjvs0j/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 61,
@@ -541,20 +537,18 @@
  {
   "s.no.": 62,
   "rank": 62,
-  "Full name": "Shashank",
   "user name": "ug40822034",
   "marks": 0,
   "time": "00:00:00",
-  "certificate": "https://drive.google.com/file/d/1JjcEiKke4HS3driVcHOGTvscBajDivrC/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 63,
   "rank": 63,
-  "Full name": "Harshit",
   "user name": "harshittkb",
   "marks": 0,
   "time": "00:00:00",
-  "certificate": "https://drive.google.com/file/d/1_DYGAGbLPs_7x9WVKJpo8fwzY1HbsgsU/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 64,
@@ -620,11 +614,10 @@
  {
   "s.no.": 71,
   "rank": 71,
-  "Full name": "Aarushi Sharma",
   "user name": "as2053",
   "marks": 0,
   "time": "00:00:00",
-  "certificate": "https://drive.google.com/file/d/1aV55QUgvAKPg2GjueGpqvisWO4uL4VCD/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 72,
@@ -698,11 +691,10 @@
  {
   "s.no.": 80,
   "rank": 80,
-  "Full name": "Shaheen  Parveen",
   "user name": "shaheen080600",
   "marks": 0,
   "time": "00:00:00",
-  "certificate": "https://drive.google.com/file/d/1ZcmMEi3QsF6026P94pOqX-JhZAV6PRWk/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 81,
@@ -794,11 +786,10 @@
  {
   "s.no.": 91,
   "rank": 91,
-  "Full name": "Aditya Kumar",
   "user name": "ftd10622461",
   "marks": 0,
   "time": "00:00:00",
-  "certificate": "https://drive.google.com/file/d/1zg7GF63Olt8hNalDl7A8UR6iqeHSNs0s/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 92,
@@ -855,11 +846,10 @@
  {
   "s.no.": 98,
   "rank": 98,
-  "Full name": "Kamal",
   "user name": "kamal84041",
   "marks": 0,
   "time": "00:00:00",
-  "certificate": "https://drive.google.com/file/d/1013swKfhjd_b7QzUECpS3U1KoM_XAGd2/view?usp=drivesdk"
+  "certificate": "error"
  },
  {
   "s.no.": 99,
