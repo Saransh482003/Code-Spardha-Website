@@ -7,6 +7,9 @@ import Image from 'next/image'
 
 export default function App({ Component, pageProps }) {
   return <>
+    <section className={styler.new}>
+      <p className={styler.newNews}>Results Released!! Go to Results tab to check your score and download your certificate.</p>
+    </section>
     <Navbar />
     <section className={styler.intro}>
         <video src='/Home/cs.mp4' autoPlay muted loop className={styler.video} />

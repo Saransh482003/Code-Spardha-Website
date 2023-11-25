@@ -17,6 +17,7 @@ const home = () => {
         </div>
         <Image src="/Home/banner.png" width={1920} height={600} className={styler.banner}></Image>
       </section> */}
+      
       <section className={styler.howTo} style={{marginBottom:"0rem"}}>
         <h1 className={styler.howHeader}>How To Register?</h1>
         <div className={styler.steps}>
